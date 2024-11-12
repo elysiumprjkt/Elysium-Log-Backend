@@ -32,7 +32,7 @@ app.use(express.json());
 app.use(rateLimiter({ windowMs: 15 * 60 * 1000, max: 100, headers: true }));
 
 app.post('/player/login/dashboard', (req, res) => {
-    res.sendFile(__dirname + '/public/html/dashboard.html');
+    res.status(302).redirect('/player/growid/login/validate');
 });
 
 app.all('/player/growid/login/validate', (req, res) => {
