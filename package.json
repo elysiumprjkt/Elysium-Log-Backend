@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/YoruAkio/GrowtopiaLogin-Backend.git"
+        "url": "git+https://github.com/elysiumprjkt/Elysium-Log-Backend.git"
     },
-    "author": "YoruAkio <yoruakio@proton.me>",
+    "author": "Flupy admin@flupy.web.id",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/YoruAkio/GrowtopiaLogin-Backend/issues"
+        "url": "https://github.com/elysiumprjkt/Elysium-Log-Backend/issues"
     },
-    "homepage": "https://github.com/YoruAkio/GrowtopiaLogin-Backend#readme",
+    "homepage": "https://github.com/elysiumprjkt/Elysium-Log-Backend",
     "dependencies": {
         "body-parser": "^1.20.2",
         "compression": "^1.7.5",
